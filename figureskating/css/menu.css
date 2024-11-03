@@ -47,7 +47,7 @@ ul{
 @media (max-width: 768px) {
     .nav{
         float: left;
-        margin-left: 35px;
+        margin-left: 25px;
         width: 350px;
     }
     .menu a, p{

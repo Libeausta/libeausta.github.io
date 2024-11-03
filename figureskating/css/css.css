@@ -98,10 +98,10 @@ img {
 		margin-left: 25px;
 		margin-right: 25px;
 	}
-	body {
+	p {
 		font-size: 14px;
 	}
 	.judge::before {
-		margin: 5px 5px 0 0;
+		margin: 6px 5px 0 0;
 	}
 }

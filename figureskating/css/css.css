@@ -17,7 +17,9 @@ body{
 	font-size: 18px;
 	overflow-x: hidden;
 }
-
+p {
+	margin-bottom: 10px;
+}
 .desc_header {
 	margin: 40px 0px 20px 55px;
 	width: 90%;
@@ -91,5 +93,9 @@ img {
 		margin-left: 35px;
 		margin-right: 35px;
 	}
-
+	.title, .desc_title {
+		text-align: left;
+		margin-left: 35px;
+		margin-right: 35px;
+	}
 }

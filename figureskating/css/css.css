@@ -1,0 +1,95 @@
+@font-face {
+	font-family: 'Sofia Sans', sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Sofia+Sans:wght@500&display=swap');
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+	font-family: 'Sofia Sans', sans-serif;
+	font-weight: 500;
+  	font-style: normal;
+	background-color: #faf9f9;
+	font-size: 18px;
+	overflow-x: hidden;
+}
+
+.desc_header {
+	margin: 40px 0px 20px 55px;
+	width: 90%;
+}
+.flex_row {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+  
+.flex_column {
+	width: 100%;
+	padding: 15px;
+	margin: 10px;
+}
+
+.jump_kind {
+	color: #545659;
+	background-color: rgba(201, 201, 247, 0.6);
+	border-radius: 10px;
+}
+
+.step_kind {
+	color: #545659;
+	background-color: #C2E4F5;
+	border-radius: 10px;
+}
+
+.spiral_kind {
+	color: #545659;
+	background-color: #ddc4f677;
+	border-radius: 10px;
+}
+
+.title, .desc_title {
+	color: #545659;
+	text-align: center;
+}
+.title_main, .desc_title_main {
+	color: #545659;
+	text-align: left;
+}
+img {
+	display: block;
+	margin: auto;
+	margin-top: 10px;
+}
+.spiral_img {
+	width: 200px;
+}
+.judge::before {
+	content: "";
+  	float: left;
+  	margin: 3px 5px 0 0;
+	width: 10px;
+	height: 10px;
+	background-color: #545659;
+	border-radius: 5px;
+}
+@media (min-width: 768px) {
+	.flex_column {
+		width: 30%;
+	}
+}
+@media (max-width: 768px) {
+	.desc_header {
+		margin-left: 35px;
+	}
+	.flex_column {
+		margin-left: 35px;
+		margin-right: 35px;
+	}
+
+}
